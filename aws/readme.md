@@ -382,3 +382,31 @@ By default, a security group denies all inbound traffic and allows all outbound 
 With security groups, you can add custom rules to configure which traffic should be allowed. Any other traffic would then be denied. For example, custom rules can be given separately for inbound and outbound traffic. As guests arrive, the door attendant checks a list to makes sure they can enter the building. However, the door attendant does not check the list again when guests are exiting the building.
 
 ![alt text](image-8.png)
+
+Amazon Route 53
+
+Route 53 is a DNS that provides a reliable and cost-effective way to route end users to internet applications.
+
+Route 53 directs end users to your resources with globally dispersed DNS servers and automatic scaling. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS. It connects user requests to infrastructure running in AWS, such as Amazon EC2 instances and load balancers. It also routes users to infrastructure outside of AWS.
+
+Another feature of Route 53 is the ability to manage the DNS records for domain names. You can register new domain names directly in Route 53. You can also transfer DNS records for existing domain names managed by other domain registrars. This makes it possible for you to manage all of your domain names within a single location.
+
+Route 53 also works with the next AWS edge networking service, Amazon CloudFront.
+
+Amazon CloudFront
+
+CloudFront is a content delivery network (CDN) service that delivers your content with faster loading times, cost savings, and reliability.
+
+Three trucks representing CloudFront, hauling content to different global locations on a globe.
+CloudFront is like a global network of delivery trucks that quickly brings web content to users around the world. Instead of all requests traveling back to one central warehouse (your original server), CloudFront stores copies of your content at locations closer to your users. This means websites, videos, images, and applications load much faster, no matter where your customers are located.
+
+
+Use cases 
+Streaming app : A company that offers online workout videos uses CloudFront to make sure videos play smoothly without buffering, even during peak exercise times when thousands of users log in simultaneously.
+
+Ecommerce website
+An online store uses CloudFront to deliver product images and web pages quickly during busy shopping seasons. This faster experience keeps customers engaged and reduces abandoned shopping carts.
+
+Mobile app
+A travel app uses CloudFront to deliver map data and images to users' phones quickly to help travelers navigate new cities without frustrating delays.
+
