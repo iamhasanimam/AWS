@@ -1,0 +1,11 @@
+Designed and deployed a 3-microservice architecture (Node.js + Python FastAPI) on AWS.
+
+Implemented containerization (Docker) and orchestration (Kubernetes) with autoscaling (HPA).
+
+Automated deployments via GitHub Actions, AWS ECR, and Kubernetes manifests.
+
+Configured ALB + NGINX Ingress Controller for HTTP routing, AWS RDS for relational data, and MongoDB Atlas for NoSQL.
+
+Integrated AWS SSM Parameter Store and Kubernetes Secrets for secure credentials management.
+
+Monitored application health with Prometheus, Grafana, and CloudWatch.
